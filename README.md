@@ -1,6 +1,6 @@
 # 3D-object-detection
 1. I have used preprocessed data from https://drive.google.com/file/d/1P_uFQcvVFf10TLxjIaFMfjto8ZHON-N2/view?usp=sharing
-which contains preprocessed training and validation data
+which contains preprocessed training and validation data. 
 
 2. This is put to training using train.py
 
@@ -27,6 +27,11 @@ which means 3 is chair and 1 is table etc
 7. Google Drive containing all my project files used in google colab
 https://drive.google.com/drive/folders/1ScYig5Jx61cnWL7RnpE5L3qQyNgA_OiR?usp=sharing
 
+training and validation datasets can be downloaded from the google drive located in
+/sunrgbd/sunrgbd_pc_bbox_votes_50k_v1_train and /sunrgbd/sunrgbd_pc_bbox_votes_50k_v1_val
+and place them in your sunrgbd folder to run a your host computer.
+
+
 steps on google colab available in 3D_Object_Detection.ipynb
 1. download and install cuda 10
 
@@ -41,4 +46,6 @@ steps on google colab available in 3D_Object_Detection.ipynb
 4. test and evaluate with the checkpoint_sunrgbd.tar
 !python eval.py
 
+you can also run demo by 
+!python demo.py
 
